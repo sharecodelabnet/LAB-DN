@@ -715,6 +715,57 @@ results:
 
 #### ADE
 
+<table rules="none" align="center">
+	<tr>
+		<td>
+			<center>
+				<img src="./docs/ADE-org/1.jpg"/>
+				<br/>
+				<font color="AAAAAA">shadow image</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/ADE-res/1.png"/>
+				<br/>
+				<font color="AAAAAA">res</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/ADE-mask/1.jpg"/>
+				<br/>
+				<font color="AAAAAA">mask</font>
+			</center>
+		</td>
+	</tr>
+</table>
+
+<table rules="none" align="center">
+	<tr>
+		<td>
+			<center>
+				<img src="./docs/ADE-org/2.jpg"/>
+				<br/>
+				<font color="AAAAAA">shadow image</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/ADE-res/2.png"/>
+				<br/>
+				<font color="AAAAAA">res</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/ADE-mask/2.jpg"/>
+				<br/>
+				<font color="AAAAAA">mask</font>
+			</center>
+		</td>
+	</tr>
+</table>
 
 ### Examples of different modeling methods for L channel and AB channel
 
