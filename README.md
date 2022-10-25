@@ -522,14 +522,14 @@ shadow images:
 		</td>
 		<td>
 			<center>
-				<img src="./docs/video-org/3.jpg"/>
+				<img src="./docs/video-org/3.png"/>
 				<br/>
 				<font color="AAAAAA">_MG_5728</font>
 			</center>
 		</td>
 		<td>
 			<center>
-				<img src="./docs/video-org/4.jpg"/>
+				<img src="./docs/video-org/4.png"/>
 				<br/>
 				<font color="AAAAAA">IMG_6760</font>
 			</center>
