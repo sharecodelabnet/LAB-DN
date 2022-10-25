@@ -501,9 +501,9 @@ results:
 </table>
 
 ### Generalization
-We test the SBU-TimeLapse Dataset (video), USR and ADE by the model trained on ISTD.
+We test the SBU-TimeLapse Dataset (video), USR and ADE using the model trained on ISTD.
 
-The mask of these data is obtained using shadow detector [1].
+The mask of these data is obtained by shadow detector [1].
 
 [1] Mitigating Intensity Bias in Shadow Detection via Feature Decomposition and Reweighting
 
