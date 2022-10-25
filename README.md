@@ -613,7 +613,7 @@ results:
 	<tr>
 		<td>
 			<center>
-				<img src="./docs/USR-org/1.png"/>
+				<img src="./docs/USR-org/1.jpg"/>
 				<br/>
 				<font color="AAAAAA">shadow image</font>
 			</center>
@@ -627,7 +627,7 @@ results:
 		</td>
 		<td>
 			<center>
-				<img src="./docs/USR-mask/1.png"/>
+				<img src="./docs/USR-mask/1.jpg"/>
 				<br/>
 				<font color="AAAAAA">mask</font>
 			</center>
@@ -639,7 +639,7 @@ results:
 	<tr>
 		<td>
 			<center>
-				<img src="./docs/USR-org/2.png"/>
+				<img src="./docs/USR-org/2.jpg"/>
 				<br/>
 				<font color="AAAAAA">shadow image</font>
 			</center>
@@ -653,7 +653,7 @@ results:
 		</td>
 		<td>
 			<center>
-				<img src="./docs/USR-mask/2.png"/>
+				<img src="./docs/USR-mask/2.jpg"/>
 				<br/>
 				<font color="AAAAAA">mask</font>
 			</center>
@@ -665,7 +665,7 @@ results:
 	<tr>
 		<td>
 			<center>
-				<img src="./docs/USR-org/3.png"/>
+				<img src="./docs/USR-org/3.jpg"/>
 				<br/>
 				<font color="AAAAAA">shadow image</font>
 			</center>
@@ -679,7 +679,7 @@ results:
 		</td>
 		<td>
 			<center>
-				<img src="./docs/USR-mask/3.png"/>
+				<img src="./docs/USR-mask/3.jpg"/>
 				<br/>
 				<font color="AAAAAA">mask</font>
 			</center>
@@ -691,7 +691,7 @@ results:
 	<tr>
 		<td>
 			<center>
-				<img src="./docs/USR-org/4.png"/>
+				<img src="./docs/USR-org/4.jpg"/>
 				<br/>
 				<font color="AAAAAA">shadow image</font>
 			</center>
@@ -705,7 +705,7 @@ results:
 		</td>
 		<td>
 			<center>
-				<img src="./docs/USR-mask/4.png"/>
+				<img src="./docs/USR-mask/4.jpg"/>
 				<br/>
 				<font color="AAAAAA">mask</font>
 			</center>
