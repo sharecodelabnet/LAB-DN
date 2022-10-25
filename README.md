@@ -390,7 +390,7 @@ shadow images:
 			<center>
 				<img src="./docs/SRD-org/SRD-e-2.jpg"/>
 				<br/>
-				<font color="AAAAAA">IMG_6439</font>
+				<font color="AAAAAA">IMG_6456</font>
 			</center>
 		</td>
 	</tr>
@@ -424,7 +424,7 @@ results:
 			<center>
 				<img src="./docs/SRD-res/SRD-e-2.png"/>
 				<br/>
-				<font color="AAAAAA">IMG_6439</font>
+				<font color="AAAAAA">IMG_6456</font>
 			</center>
 		</td>
 	</tr>
