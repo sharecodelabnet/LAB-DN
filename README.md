@@ -1,6 +1,6 @@
 # Code for LAB-Net
 ## Paper name
-LAB-Net: A Lightweight Network Based on LAB Color Space for Shadow Removal
+LAB-Net: LAB Color-Space oriented Lightweight Network for Shadow Removal
 ## Our result
 
 ### ISTD and SRD results
@@ -500,7 +500,12 @@ results:
 	</tr>
 </table>
 
-### Results on Other Datasets
+### Generalization
+We test the SBU-TimeLapse Dataset (video), USR and ADE using the model trained on ISTD.
+
+The mask of these data is obtained using shadow detector[1]
+
+[1] Mitigating Intensity Bias in Shadow Detection via Feature Decomposition and Reweighting
 
 #### Video
 <table rules="none" align="center">
@@ -714,32 +719,6 @@ results:
 </table>
 
 #### ADE
-
-<table rules="none" align="center">
-	<tr>
-		<td>
-			<center>
-				<img src="./docs/ADE-org/1.jpg"/>
-				<br/>
-				<font color="AAAAAA">shadow image</font>
-			</center>
-		</td>
-		<td>
-			<center>
-				<img src="./docs/ADE-res/1.png"/>
-				<br/>
-				<font color="AAAAAA">res</font>
-			</center>
-		</td>
-		<td>
-			<center>
-				<img src="./docs/ADE-mask/1.jpg"/>
-				<br/>
-				<font color="AAAAAA">mask</font>
-			</center>
-		</td>
-	</tr>
-</table>
 
 <table rules="none" align="center">
 	<tr>
