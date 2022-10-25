@@ -1,6 +1,505 @@
 # Code for LAB-Net
 ## Paper name
 LAB-Net: A Lightweight Network Based on LAB Color Space for Shadow Removal
+## Our result
+
+### ISTD and SRD results
+
+#### more texture results
+
+shadow images:
+<table rules="none" align="center">
+	<tr>
+		<td>
+			<center>
+				<img src="./docs/ISTD-org/ISTD-a-1.png"/>
+				<br/>
+				<font color="AAAAAA">105-1</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/ISTD-org/ISTD-a-2.png"/>
+				<br/>
+				<font color="AAAAAA">125-1</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/SRD-org/SRD-a-1.jpg"/>
+				<br/>
+				<font color="AAAAAA">IMG_6581</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/SRD-org/SRD-a-2.jpg"/>
+				<br/>
+				<font color="AAAAAA">IMG_6916</font>
+			</center>
+		</td>
+	</tr>
+</table>
+
+results:
+<table rules="none" align="center">
+	<tr>
+		<td>
+			<center>
+				<img src="./docs/ISTD-res/ISTD-a-1.png"/>
+				<br/>
+				<font color="AAAAAA">105-1</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/ISTD-res/ISTD-a-2.png"/>
+				<br/>
+				<font color="AAAAAA">125-1</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/SRD-res/SRD-a-1.png"/>
+				<br/>
+				<font color="AAAAAA">IMG_6581</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/SRD-res/SRD-a-2.png"/>
+				<br/>
+				<font color="AAAAAA">IMG_6916</font>
+			</center>
+		</td>
+	</tr>
+</table>
+
+
+#### light/dark versions of the same color
+
+shadow images:
+<table rules="none" align="center">
+	<tr>
+		<td>
+			<center>
+				<img src="./docs/ISTD-org/ISTD-b-1.png"/>
+				<br/>
+				<font color="AAAAAA">97-2</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/ISTD-org/ISTD-b-2.png"/>
+				<br/>
+				<font color="AAAAAA">116-4</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/SRD-org/SRD-b-1.jpg"/>
+				<br/>
+				<font color="AAAAAA">IMG_6425</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/SRD-org/SRD-b-2.jpg"/>
+				<br/>
+				<font color="AAAAAA">IMG_6793</font>
+			</center>
+		</td>
+	</tr>
+</table>
+
+results:
+<table rules="none" align="center">
+	<tr>
+		<td>
+			<center>
+				<img src="./docs/ISTD-res/ISTD-b-1.png"/>
+				<br/>
+				<font color="AAAAAA">97-2</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/ISTD-res/ISTD-b-2.png"/>
+				<br/>
+				<font color="AAAAAA">116-4</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/SRD-res/SRD-b-1.png"/>
+				<br/>
+				<font color="AAAAAA">IMG_6425</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/SRD-res/SRD-b-2.png"/>
+				<br/>
+				<font color="AAAAAA">IMG_6793</font>
+			</center>
+		</td>
+	</tr>
+</table>
+
+#### small/tiny shadows
+
+shadow images:
+<table rules="none" align="center">
+	<tr>
+		<td>
+			<center>
+				<img src="./docs/ISTD-org/ISTD-c-1.png"/>
+				<br/>
+				<font color="AAAAAA">117-15</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/ISTD-org/ISTD-c-2.png"/>
+				<br/>
+				<font color="AAAAAA">124-13</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/SRD-org/SRD-c-1.jpg"/>
+				<br/>
+				<font color="AAAAAA">_MG_3121</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/SRD-org/SRD-c-2.jpg"/>
+				<br/>
+				<font color="AAAAAA">_MG_5956</font>
+			</center>
+		</td>
+	</tr>
+</table>
+
+results:
+<table rules="none" align="center">
+	<tr>
+		<td>
+			<center>
+				<img src="./docs/ISTD-res/ISTD-c-1.png"/>
+				<br/>
+				<font color="AAAAAA">117-15</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/ISTD-res/ISTD-c-2.png"/>
+				<br/>
+				<font color="AAAAAA">124-13</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/SRD-res/SRD-c-1.png"/>
+				<br/>
+				<font color="AAAAAA">_MG_3121</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/SRD-res/SRD-c-2.png"/>
+				<br/>
+				<font color="AAAAAA">_MG_5956</font>
+			</center>
+		</td>
+	</tr>
+</table>
+
+#### shallow shadows
+
+shadow images:
+<table rules="none" align="center">
+	<tr>
+		<td>
+			<center>
+				<img src="./docs/ISTD-org/ISTD-d-1.png"/>
+				<br/>
+				<font color="AAAAAA">94-1</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/ISTD-org/ISTD-d-2.png"/>
+				<br/>
+				<font color="AAAAAA">97-5</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/SRD-org/SRD-d-1.jpg"/>
+				<br/>
+				<font color="AAAAAA">IMG_5467</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/SRD-org/SRD-d-2.jpg"/>
+				<br/>
+				<font color="AAAAAA">IMG_5491</font>
+			</center>
+		</td>
+	</tr>
+</table>
+
+results:
+<table rules="none" align="center">
+	<tr>
+		<td>
+			<center>
+				<img src="./docs/ISTD-res/ISTD-d-1.png"/>
+				<br/>
+				<font color="AAAAAA">94-1</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/ISTD-res/ISTD-d-2.png"/>
+				<br/>
+				<font color="AAAAAA">97-5</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/SRD-res/SRD-d-1.png"/>
+				<br/>
+				<font color="AAAAAA">IMG_5467</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/SRD-res/SRD-d-2.png"/>
+				<br/>
+				<font color="AAAAAA">IMG_5491</font>
+			</center>
+		</td>
+	</tr>
+</table>
+
+#### penumbra/soft shadows
+
+shadow images:
+<table rules="none" align="center">
+	<tr>
+		<td>
+			<center>
+				<img src="./docs/ISTD-org/ISTD-e-1.png"/>
+				<br/>
+				<font color="AAAAAA">99-3</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/ISTD-org/ISTD-e-2.png"/>
+				<br/>
+				<font color="AAAAAA">124-4</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/SRD-org/SRD-e-1.jpg"/>
+				<br/>
+				<font color="AAAAAA">_MG_5771</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/SRD-org/SRD-e-2.jpg"/>
+				<br/>
+				<font color="AAAAAA">IMG_6439</font>
+			</center>
+		</td>
+	</tr>
+</table>
+
+results:
+<table rules="none" align="center">
+	<tr>
+		<td>
+			<center>
+				<img src="./docs/ISTD-res/ISTD-e-1.png"/>
+				<br/>
+				<font color="AAAAAA">99-3</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/ISTD-res/ISTD-e-2.png"/>
+				<br/>
+				<font color="AAAAAA">124-4</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/SRD-res/SRD-e-1.png"/>
+				<br/>
+				<font color="AAAAAA">_MG_5771</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/SRD-res/SRD-e-2.png"/>
+				<br/>
+				<font color="AAAAAA">IMG_6439</font>
+			</center>
+		</td>
+	</tr>
+</table>
+
+#### shadows on black objects
+
+shadow images:
+<table rules="none" align="center">
+	<tr>
+		<td>
+			<center>
+				<img src="./docs/ISTD-org/ISTD-f-1.png"/>
+				<br/>
+				<font color="AAAAAA">125-1</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/ISTD-org/ISTD-f-2.png"/>
+				<br/>
+				<font color="AAAAAA">111-2</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/SRD-org/SRD-f-1.jpg"/>
+				<br/>
+				<font color="AAAAAA">_MG_5728</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/SRD-org/SRD-f-2.jpg"/>
+				<br/>
+				<font color="AAAAAA">IMG_6760</font>
+			</center>
+		</td>
+	</tr>
+</table>
+
+results:
+<table rules="none" align="center">
+	<tr>
+		<td>
+			<center>
+				<img src="./docs/ISTD-res/ISTD-f-1.png"/>
+				<br/>
+				<font color="AAAAAA">125-1</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/ISTD-res/ISTD-f-2.png"/>
+				<br/>
+				<font color="AAAAAA">111-2</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/SRD-res/SRD-f-1.png"/>
+				<br/>
+				<font color="AAAAAA">_MG_5728</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/SRD-res/SRD-f-2.png"/>
+				<br/>
+				<font color="AAAAAA">IMG_6760</font>
+			</center>
+		</td>
+	</tr>
+</table>
+
+#### ISTD results
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-c3ow" colspan="3">S</th>
+    <th class="tg-c3ow" colspan="3">NS</th>
+    <th class="tg-c3ow" colspan="3">ALL</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-c3ow">RMSE</td>
+    <td class="tg-c3ow">PSNR</td>
+    <td class="tg-c3ow">SSIM</td>
+    <td class="tg-c3ow">RMSE</td>
+    <td class="tg-c3ow">PSNR</td>
+    <td class="tg-c3ow">SSIM</td>
+    <td class="tg-c3ow">RMSE</td>
+    <td class="tg-c3ow">PSNR</td>
+    <td class="tg-c3ow">SSIM</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">6.65</td>
+    <td class="tg-c3ow">37.17</td>
+    <td class="tg-c3ow">0.9887</td>
+    <td class="tg-c3ow">4.49</td>
+    <td class="tg-c3ow">32.42</td>
+    <td class="tg-c3ow">0.9727</td>
+    <td class="tg-c3ow">4.84</td>
+    <td class="tg-c3ow">30.49</td>
+    <td class="tg-c3ow">0.9563</td>
+  </tr>
+</tbody>
+</table>
+
+All the ISTD results can be found [here](https://drive.google.com/drive/folders/12IO_H3uOynFXshx4K4gOWea2tATXKct3?usp=sharing)
+
+#### SRD results
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-c3ow" colspan="3">S</th>
+    <th class="tg-c3ow" colspan="3">NS</th>
+    <th class="tg-c3ow" colspan="3">ALL</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-c3ow">RMSE</td>
+    <td class="tg-c3ow">PSNR</td>
+    <td class="tg-c3ow">SSIM</td>
+    <td class="tg-c3ow">RMSE</td>
+    <td class="tg-c3ow">PSNR</td>
+    <td class="tg-c3ow">SSIM</td>
+    <td class="tg-c3ow">RMSE</td>
+    <td class="tg-c3ow">PSNR</td>
+    <td class="tg-c3ow">SSIM</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">6.56</td>
+    <td class="tg-c3ow">35.71</td>
+    <td class="tg-c3ow">0.9818</td>
+    <td class="tg-c3ow">3.77</td>
+    <td class="tg-c3ow">36.5</td>
+    <td class="tg-c3ow">0.9813</td>
+    <td class="tg-c3ow">4.6</td>
+    <td class="tg-c3ow">32.22</td>
+    <td class="tg-c3ow">0.9554</td>
+  </tr>
+</tbody>
+</table>
+
+All the SRD results can be found [here](https://drive.google.com/drive/folders/1G3oWIYnk2EYxl3t1-aLVGoKExGXM0car?usp=sharing)
+
 ## Requirements
 python=3.7.13
 
@@ -64,77 +563,3 @@ cd script
 bash test.sh 0
 ```
 0 is the gpu number
-## Our result
-### ISTD
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-c3ow" colspan="3">S</th>
-    <th class="tg-c3ow" colspan="3">NS</th>
-    <th class="tg-c3ow" colspan="3">ALL</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-c3ow">RMSE</td>
-    <td class="tg-c3ow">PSNR</td>
-    <td class="tg-c3ow">SSIM</td>
-    <td class="tg-c3ow">RMSE</td>
-    <td class="tg-c3ow">PSNR</td>
-    <td class="tg-c3ow">SSIM</td>
-    <td class="tg-c3ow">RMSE</td>
-    <td class="tg-c3ow">PSNR</td>
-    <td class="tg-c3ow">SSIM</td>
-  </tr>
-  <tr>
-    <td class="tg-c3ow">6.65</td>
-    <td class="tg-c3ow">37.17</td>
-    <td class="tg-c3ow">0.9887</td>
-    <td class="tg-c3ow">4.49</td>
-    <td class="tg-c3ow">32.42</td>
-    <td class="tg-c3ow">0.9727</td>
-    <td class="tg-c3ow">4.84</td>
-    <td class="tg-c3ow">30.49</td>
-    <td class="tg-c3ow">0.9563</td>
-  </tr>
-</tbody>
-</table>
-
-Our ISTD result can be found [here](https://drive.google.com/drive/folders/12IO_H3uOynFXshx4K4gOWea2tATXKct3?usp=sharing)
-
-### SRD
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-c3ow" colspan="3">S</th>
-    <th class="tg-c3ow" colspan="3">NS</th>
-    <th class="tg-c3ow" colspan="3">ALL</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-c3ow">RMSE</td>
-    <td class="tg-c3ow">PSNR</td>
-    <td class="tg-c3ow">SSIM</td>
-    <td class="tg-c3ow">RMSE</td>
-    <td class="tg-c3ow">PSNR</td>
-    <td class="tg-c3ow">SSIM</td>
-    <td class="tg-c3ow">RMSE</td>
-    <td class="tg-c3ow">PSNR</td>
-    <td class="tg-c3ow">SSIM</td>
-  </tr>
-  <tr>
-    <td class="tg-c3ow">6.56</td>
-    <td class="tg-c3ow">35.71</td>
-    <td class="tg-c3ow">0.9818</td>
-    <td class="tg-c3ow">3.77</td>
-    <td class="tg-c3ow">36.5</td>
-    <td class="tg-c3ow">0.9813</td>
-    <td class="tg-c3ow">4.6</td>
-    <td class="tg-c3ow">32.22</td>
-    <td class="tg-c3ow">0.9554</td>
-  </tr>
-</tbody>
-</table>
-
-Our SRD result can be found [here](https://drive.google.com/drive/folders/1G3oWIYnk2EYxl3t1-aLVGoKExGXM0car?usp=sharing)
