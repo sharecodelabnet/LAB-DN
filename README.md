@@ -5,6 +5,80 @@ LAB-Net: A Lightweight Network Based on LAB Color Space for Shadow Removal
 
 ### ISTD and SRD results
 
+#### ISTD results
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-c3ow" colspan="3">S</th>
+    <th class="tg-c3ow" colspan="3">NS</th>
+    <th class="tg-c3ow" colspan="3">ALL</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-c3ow">RMSE</td>
+    <td class="tg-c3ow">PSNR</td>
+    <td class="tg-c3ow">SSIM</td>
+    <td class="tg-c3ow">RMSE</td>
+    <td class="tg-c3ow">PSNR</td>
+    <td class="tg-c3ow">SSIM</td>
+    <td class="tg-c3ow">RMSE</td>
+    <td class="tg-c3ow">PSNR</td>
+    <td class="tg-c3ow">SSIM</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">6.65</td>
+    <td class="tg-c3ow">37.17</td>
+    <td class="tg-c3ow">0.9887</td>
+    <td class="tg-c3ow">4.49</td>
+    <td class="tg-c3ow">32.42</td>
+    <td class="tg-c3ow">0.9727</td>
+    <td class="tg-c3ow">4.84</td>
+    <td class="tg-c3ow">30.49</td>
+    <td class="tg-c3ow">0.9563</td>
+  </tr>
+</tbody>
+</table>
+
+All the ISTD results can be found [here](https://drive.google.com/drive/folders/12IO_H3uOynFXshx4K4gOWea2tATXKct3?usp=sharing)
+
+#### SRD results
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-c3ow" colspan="3">S</th>
+    <th class="tg-c3ow" colspan="3">NS</th>
+    <th class="tg-c3ow" colspan="3">ALL</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-c3ow">RMSE</td>
+    <td class="tg-c3ow">PSNR</td>
+    <td class="tg-c3ow">SSIM</td>
+    <td class="tg-c3ow">RMSE</td>
+    <td class="tg-c3ow">PSNR</td>
+    <td class="tg-c3ow">SSIM</td>
+    <td class="tg-c3ow">RMSE</td>
+    <td class="tg-c3ow">PSNR</td>
+    <td class="tg-c3ow">SSIM</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">6.56</td>
+    <td class="tg-c3ow">35.71</td>
+    <td class="tg-c3ow">0.9818</td>
+    <td class="tg-c3ow">3.77</td>
+    <td class="tg-c3ow">36.5</td>
+    <td class="tg-c3ow">0.9813</td>
+    <td class="tg-c3ow">4.6</td>
+    <td class="tg-c3ow">32.22</td>
+    <td class="tg-c3ow">0.9554</td>
+  </tr>
+</tbody>
+</table>
+
+All the SRD results can be found [here](https://drive.google.com/drive/folders/1G3oWIYnk2EYxl3t1-aLVGoKExGXM0car?usp=sharing)
+
 #### more texture results
 
 shadow images:
@@ -426,79 +500,82 @@ results:
 	</tr>
 </table>
 
-#### ISTD results
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-c3ow" colspan="3">S</th>
-    <th class="tg-c3ow" colspan="3">NS</th>
-    <th class="tg-c3ow" colspan="3">ALL</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-c3ow">RMSE</td>
-    <td class="tg-c3ow">PSNR</td>
-    <td class="tg-c3ow">SSIM</td>
-    <td class="tg-c3ow">RMSE</td>
-    <td class="tg-c3ow">PSNR</td>
-    <td class="tg-c3ow">SSIM</td>
-    <td class="tg-c3ow">RMSE</td>
-    <td class="tg-c3ow">PSNR</td>
-    <td class="tg-c3ow">SSIM</td>
-  </tr>
-  <tr>
-    <td class="tg-c3ow">6.65</td>
-    <td class="tg-c3ow">37.17</td>
-    <td class="tg-c3ow">0.9887</td>
-    <td class="tg-c3ow">4.49</td>
-    <td class="tg-c3ow">32.42</td>
-    <td class="tg-c3ow">0.9727</td>
-    <td class="tg-c3ow">4.84</td>
-    <td class="tg-c3ow">30.49</td>
-    <td class="tg-c3ow">0.9563</td>
-  </tr>
-</tbody>
+### Results on Other Datasets
+
+#### video
+
+#### 
+
+### Examples of different modeling methods for L channel and AB channel
+
+shadow images:
+<table rules="none" align="center">
+	<tr>
+		<td>
+			<center>
+				<img src="./docs/OnlyL-org/1.png"/>
+				<br/>
+				<font color="AAAAAA">10-17</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/OnlyL-org/2.png"/>
+				<br/>
+				<font color="AAAAAA">32-8</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/OnlyL-org/3.jpg"/>
+				<br/>
+				<font color="AAAAAA">_MG_2763</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/OnlyL-org/4.jpg"/>
+				<br/>
+				<font color="AAAAAA">IMG_6507</font>
+			</center>
+		</td>
+	</tr>
 </table>
 
-All the ISTD results can be found [here](https://drive.google.com/drive/folders/12IO_H3uOynFXshx4K4gOWea2tATXKct3?usp=sharing)
-
-#### SRD results
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-c3ow" colspan="3">S</th>
-    <th class="tg-c3ow" colspan="3">NS</th>
-    <th class="tg-c3ow" colspan="3">ALL</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-c3ow">RMSE</td>
-    <td class="tg-c3ow">PSNR</td>
-    <td class="tg-c3ow">SSIM</td>
-    <td class="tg-c3ow">RMSE</td>
-    <td class="tg-c3ow">PSNR</td>
-    <td class="tg-c3ow">SSIM</td>
-    <td class="tg-c3ow">RMSE</td>
-    <td class="tg-c3ow">PSNR</td>
-    <td class="tg-c3ow">SSIM</td>
-  </tr>
-  <tr>
-    <td class="tg-c3ow">6.56</td>
-    <td class="tg-c3ow">35.71</td>
-    <td class="tg-c3ow">0.9818</td>
-    <td class="tg-c3ow">3.77</td>
-    <td class="tg-c3ow">36.5</td>
-    <td class="tg-c3ow">0.9813</td>
-    <td class="tg-c3ow">4.6</td>
-    <td class="tg-c3ow">32.22</td>
-    <td class="tg-c3ow">0.9554</td>
-  </tr>
-</tbody>
+Replacing L channel of input with that of gt without changing the AB channels:
+<table rules="none" align="center">
+	<tr>
+		<td>
+			<center>
+				<img src="./docs/OnlyL-res/1.png"/>
+				<br/>
+				<font color="AAAAAA">10-17</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/OnlyL-res/2.png"/>
+				<br/>
+				<font color="AAAAAA">32-8</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/OnlyL-res/3.jpg"/>
+				<br/>
+				<font color="AAAAAA">_MG_2763</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/OnlyL-res/4.jpg"/>
+				<br/>
+				<font color="AAAAAA">IMG_6507</font>
+			</center>
+		</td>
+	</tr>
 </table>
-
-All the SRD results can be found [here](https://drive.google.com/drive/folders/1G3oWIYnk2EYxl3t1-aLVGoKExGXM0car?usp=sharing)
+In these examples, L=G(L), AB=AB.
 
 ## Requirements
 python=3.7.13
