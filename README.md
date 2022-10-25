@@ -502,9 +502,113 @@ results:
 
 ### Results on Other Datasets
 
-#### video
+#### Video
+shadow images:
+<table rules="none" align="center">
+	<tr>
+		<td>
+			<center>
+				<img src="./docs/video-org/1.png"/>
+				<br/>
+				<font color="AAAAAA">125-1</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/video-org/2.png"/>
+				<br/>
+				<font color="AAAAAA">111-2</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/video-org/3.jpg"/>
+				<br/>
+				<font color="AAAAAA">_MG_5728</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/video-org/4.jpg"/>
+				<br/>
+				<font color="AAAAAA">IMG_6760</font>
+			</center>
+		</td>
+	</tr>
+</table>
 
-#### 
+masks:
+<table rules="none" align="center">
+	<tr>
+		<td>
+			<center>
+				<img src="./docs/video-mask/1.png"/>
+				<br/>
+				<font color="AAAAAA">125-1</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/video-mask/2.png"/>
+				<br/>
+				<font color="AAAAAA">111-2</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/video-mask/3.png"/>
+				<br/>
+				<font color="AAAAAA">_MG_5728</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/video-mask/4.png"/>
+				<br/>
+				<font color="AAAAAA">IMG_6760</font>
+			</center>
+		</td>
+	</tr>
+</table>
+
+results:
+<table rules="none" align="center">
+	<tr>
+		<td>
+			<center>
+				<img src="./docs/video-res/1.png"/>
+				<br/>
+				<font color="AAAAAA">125-1</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/video-res/2.png"/>
+				<br/>
+				<font color="AAAAAA">111-2</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/video-res/3.png"/>
+				<br/>
+				<font color="AAAAAA">_MG_5728</font>
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="./docs/video-res/4.png"/>
+				<br/>
+				<font color="AAAAAA">IMG_6760</font>
+			</center>
+		</td>
+	</tr>
+</table>
+
+#### USR
+
+#### ADE
+
 
 ### Examples of different modeling methods for L channel and AB channel
 
