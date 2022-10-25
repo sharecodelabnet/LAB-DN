@@ -514,16 +514,16 @@ results:
 		</td>
 		<td>
 			<center>
-				<img src="./docs/video-mask/1.png"/>
+				<img src="./docs/video-res/1.png"/>
 				<br/>
-				<font color="AAAAAA">mask</font>
+				<font color="AAAAAA">res</font>
 			</center>
 		</td>
 		<td>
 			<center>
-				<img src="./docs/video-res/1.png"/>
+				<img src="./docs/video-mask/1.png"/>
 				<br/>
-				<font color="AAAAAA">res</font>
+				<font color="AAAAAA">mask</font>
 			</center>
 		</td>
 	</tr>
@@ -540,16 +540,16 @@ results:
 		</td>
 		<td>
 			<center>
-				<img src="./docs/video-mask/2.png"/>
+				<img src="./docs/video-res/2.png"/>
 				<br/>
-				<font color="AAAAAA">mask</font>
+				<font color="AAAAAA">res</font>
 			</center>
 		</td>
 		<td>
 			<center>
-				<img src="./docs/video-res/2.png"/>
+				<img src="./docs/video-mask/2.png"/>
 				<br/>
-				<font color="AAAAAA">res</font>
+				<font color="AAAAAA">mask</font>
 			</center>
 		</td>
 	</tr>
@@ -566,16 +566,16 @@ results:
 		</td>
 		<td>
 			<center>
-				<img src="./docs/video-mask/3.png"/>
+				<img src="./docs/video-res/3.png"/>
 				<br/>
-				<font color="AAAAAA">mask</font>
+				<font color="AAAAAA">res</font>
 			</center>
 		</td>
 		<td>
 			<center>
-				<img src="./docs/video-res/3.png"/>
+				<img src="./docs/video-mask/3.png"/>
 				<br/>
-				<font color="AAAAAA">res</font>
+				<font color="AAAAAA">mask</font>
 			</center>
 		</td>
 	</tr>
@@ -592,16 +592,16 @@ results:
 		</td>
 		<td>
 			<center>
-				<img src="./docs/video-mask/4.png"/>
+				<img src="./docs/video-res/4.png"/>
 				<br/>
-				<font color="AAAAAA">mask</font>
+				<font color="AAAAAA">res</font>
 			</center>
 		</td>
 		<td>
 			<center>
-				<img src="./docs/video-res/4.png"/>
+				<img src="./docs/video-mask/4.png"/>
 				<br/>
-				<font color="AAAAAA">res</font>
+				<font color="AAAAAA">mask</font>
 			</center>
 		</td>
 	</tr>
