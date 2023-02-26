@@ -3,7 +3,7 @@
 LAB-DN: LAB Color-Space Oriented Dual-branch Lightweight Network for Shadow Removal
 ## Our result
 
-### ISTD and SRD results
+### ISTD, SRD and ISTD+ results
 
 #### ISTD results
 <table class="tg">
