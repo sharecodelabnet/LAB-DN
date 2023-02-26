@@ -784,77 +784,6 @@ The mask of these data is obtained by shadow detector [1].
 	</tr>
 </table>
 
-### Examples of different modeling methods for L channel and AB channel
-
-shadow images:
-<table rules="none" align="center">
-	<tr>
-		<td>
-			<center>
-				<img src="./docs/OnlyL-org/1.png"/>
-				<br/>
-				<font color="AAAAAA">10-17</font>
-			</center>
-		</td>
-		<td>
-			<center>
-				<img src="./docs/OnlyL-org/2.png"/>
-				<br/>
-				<font color="AAAAAA">32-8</font>
-			</center>
-		</td>
-		<td>
-			<center>
-				<img src="./docs/OnlyL-org/3.jpg"/>
-				<br/>
-				<font color="AAAAAA">_MG_2763</font>
-			</center>
-		</td>
-		<td>
-			<center>
-				<img src="./docs/OnlyL-org/4.jpg"/>
-				<br/>
-				<font color="AAAAAA">IMG_6507</font>
-			</center>
-		</td>
-	</tr>
-</table>
-
-Replacing L channel of input with that of gt without changing the AB channels:
-<table rules="none" align="center">
-	<tr>
-		<td>
-			<center>
-				<img src="./docs/OnlyL-res/1.png"/>
-				<br/>
-				<font color="AAAAAA">10-17</font>
-			</center>
-		</td>
-		<td>
-			<center>
-				<img src="./docs/OnlyL-res/2.png"/>
-				<br/>
-				<font color="AAAAAA">32-8</font>
-			</center>
-		</td>
-		<td>
-			<center>
-				<img src="./docs/OnlyL-res/3.jpg"/>
-				<br/>
-				<font color="AAAAAA">_MG_2763</font>
-			</center>
-		</td>
-		<td>
-			<center>
-				<img src="./docs/OnlyL-res/4.jpg"/>
-				<br/>
-				<font color="AAAAAA">IMG_6507</font>
-			</center>
-		</td>
-	</tr>
-</table>
-In these examples, L=G(L), AB=AB.
-
 ## Requirements
 python=3.7.13
 
@@ -863,10 +792,10 @@ pytorch=1.12.1
 pip install -r requirments.txt
 ```
 ## Train
-### Train ISTD
+### Train ISTD/ISTD+
 #### 1. Modify './script/train.sh'
 1. Adjust loadSize(256), FineSize(256), down_w(256), down_h(256)
-2.  Add dataroot(ISTD trainset path), name(task name)
+2.  Add dataroot(ISTD/ISTD+ trainset path), name(task name)
 #### 2. Run 'train.sh'
 ```bash
 cd script
@@ -897,11 +826,13 @@ Our ISTD checkpoint can be found [here](https://drive.google.com/drive/folders/1
 
 Our SRD checkpoint can be found [here](https://drive.google.com/drive/folders/15jwF-Sq3xFWJL_tGorhRsnSr5ya9GITX?usp=sharing)
 
+Our ISTD+ checkpoint can be found [here](https://drive.google.com/drive/folders/1lpyi4kiSG5ynmD0naQCnp82QF_PkN-f1?usp=share_link)
+
 Please move the .pth to a directory to use.
-### Test ISTD
+### Test ISTD/ISTD+
 #### 1. Modify './script/test.sh'
 1. Adjust size_w(640), size_h(480), down_w(256), down_h(256)
-2. Add dataroot(ISTD testset path), name(task name), resroot(path to save the result)
+2. Add dataroot(ISTD/ISTD+ testset path), name(task name), resroot(path to save the result)
 #### 2. Run 'test.sh'
 ```bash
 cd script
