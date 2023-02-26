@@ -1,6 +1,6 @@
-# Code for LAB-Net
+# Code for LAB-DN
 ## Paper name
-LAB-Net: LAB Color-Space oriented Lightweight Network for Shadow Removal
+LAB-DN: LAB Color-Space Oriented Dual-branch Lightweight Network for Shadow Removal
 ## Our result
 
 ### ISTD and SRD results
@@ -115,7 +115,7 @@ All the SRD results can be found [here](https://drive.google.com/drive/folders/1
 </tbody>
 </table>
 
-All the SRD results can be found [here](https://drive.google.com/drive/folders/1G3oWIYnk2EYxl3t1-aLVGoKExGXM0car?usp=sharing)
+All the ISTD+ results can be found [here](https://drive.google.com/drive/folders/138e14c-YEc-xW8BZxwmY1K8ovA00fdmk?usp=share_link)
 
 #### more texture results
 
