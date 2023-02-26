@@ -79,6 +79,44 @@ All the ISTD results can be found [here](https://drive.google.com/drive/folders/
 
 All the SRD results can be found [here](https://drive.google.com/drive/folders/1G3oWIYnk2EYxl3t1-aLVGoKExGXM0car?usp=sharing)
 
+
+#### ISTD+ results
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-c3ow" colspan="3">S</th>
+    <th class="tg-c3ow" colspan="3">NS</th>
+    <th class="tg-c3ow" colspan="3">ALL</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-c3ow">RMSE</td>
+    <td class="tg-c3ow">PSNR</td>
+    <td class="tg-c3ow">SSIM</td>
+    <td class="tg-c3ow">RMSE</td>
+    <td class="tg-c3ow">PSNR</td>
+    <td class="tg-c3ow">SSIM</td>
+    <td class="tg-c3ow">RMSE</td>
+    <td class="tg-c3ow">PSNR</td>
+    <td class="tg-c3ow">SSIM</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">6.13</td>
+    <td class="tg-c3ow">38.12</td>
+    <td class="tg-c3ow">0.9911</td>
+    <td class="tg-c3ow">3.56</td>
+    <td class="tg-c3ow">35.60</td>
+    <td class="tg-c3ow">0.9774</td>
+    <td class="tg-c3ow">3.99</td>
+    <td class="tg-c3ow">32.75</td>
+    <td class="tg-c3ow">0.9659</td>
+  </tr>
+</tbody>
+</table>
+
+All the SRD results can be found [here](https://drive.google.com/drive/folders/1G3oWIYnk2EYxl3t1-aLVGoKExGXM0car?usp=sharing)
+
 #### more texture results
 
 shadow images:
